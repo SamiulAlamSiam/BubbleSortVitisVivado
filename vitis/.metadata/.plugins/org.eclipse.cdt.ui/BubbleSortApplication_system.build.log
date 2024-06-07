@@ -1,0 +1,10 @@
+21:32:02 **** Incremental Build of configuration Debug for project BubbleSortApplication_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 57233 E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSort_Platform/export/BubbleSort_Platform/BubbleSort_Platform.xpfm standalone_domain E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSortApplication_system/Debug/system.bif
+sdcard_gen --xpfm E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSort_Platform/export/BubbleSort_Platform/BubbleSort_Platform.xpfm --sys_config BubbleSort_Platform --bif E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSortApplication_system/Debug/system.bif --bitstream E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSortApplication/_ide/bitstream/bubble_Sort_Design_wrapper.bit --elf E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSortApplication/Debug/BubbleSortApplication.elf,ps7_cortexa9_0
+creating BOOT.BIN using E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSortApplication/_ide/bitstream/bubble_Sort_Design_wrapper.bit
+Running D:/Software/Embeded/xilinx/Vitis/2022.2/bin/bootgen  -image E:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSortApplication_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+21:32:08 Build Finished (took 6s.115ms)
+

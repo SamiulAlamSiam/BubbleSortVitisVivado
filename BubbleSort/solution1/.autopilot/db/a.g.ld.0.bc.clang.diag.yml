@@ -1,0 +1,28 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: bubblesort.c, Line: 11, Column: 0 }
+Function:        bubbleSort
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          swap
+    DebugLoc:        { File: bubblesort.c, Line: 4, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          bubbleSort
+    DebugLoc:        { File: bubblesort.c, Line: 11, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: bubblesort.c, Line: 23, Column: 0 }
+Function:        group3
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          bubbleSort
+    DebugLoc:        { File: bubblesort.c, Line: 11, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          group3
+    DebugLoc:        { File: bubblesort.c, Line: 23, Column: 0 }
+  - String:          ''''
+...

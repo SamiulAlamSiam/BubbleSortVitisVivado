@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="bubblesort.h" path="E:\USN_Education\VitisCode\BubbleSort\bubblesort.h"/>
+    <originFiles name="bubblesort.c" path="E:\USN_Education\VitisCode\BubbleSort\bubblesort.c"/>
+  </source>
+  <testbench>
+    <originFiles name="bubblesort_tb.c" path="E:\USN_Education\VitisCode\BubbleSort\bubblesort_tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

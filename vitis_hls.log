@@ -1,0 +1,38 @@
+INFO: [HLS 200-10] Running 'D:/Software/Embeded/xilinx/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'SAS' on host 'desktop-noapfmr' (Windows NT_amd64 version 6.2) on Fri Dec 09 23:08:30 +0100 2022
+INFO: [HLS 200-10] In directory 'E:/USN_Education/VitisCode/BubbleSort'
+Sourcing Tcl script 'E:/USN_Education/VitisCode/BubbleSort/BubbleSort/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: source E:/USN_Education/VitisCode/BubbleSort/BubbleSort/solution1/csim.tcl
+INFO: [HLS 200-1510] Running: open_project BubbleSort 
+INFO: [HLS 200-10] Opening project 'E:/USN_Education/VitisCode/BubbleSort/BubbleSort'.
+INFO: [HLS 200-1510] Running: set_top group3 
+INFO: [HLS 200-1510] Running: add_files bubblesort.h 
+INFO: [HLS 200-10] Adding design file 'bubblesort.h' to the project
+INFO: [HLS 200-1510] Running: add_files bubblesort.c 
+INFO: [HLS 200-10] Adding design file 'bubblesort.c' to the project
+INFO: [HLS 200-1510] Running: add_files -tb bubblesort_tb.c -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'bubblesort_tb.c' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'E:/USN_Education/VitisCode/BubbleSort/BubbleSort/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -output=E:/USN_Education/VitisCode/BubbleSort/VIVADO_IP_Zip_File
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z010-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output E:/USN_Education/VitisCode/BubbleSort/VIVADO_IP_Zip_File -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./BubbleSort/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name group3 group3 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+Running Dispatch Server on port: 60208
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+make: 'csim.exe' is up to date.
+Bubble Sort: 
+5, 6, 11, 12, 13, INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.824 seconds; current allocated memory: 0.195 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 14.259 seconds; peak allocated memory: 676.973 MB.

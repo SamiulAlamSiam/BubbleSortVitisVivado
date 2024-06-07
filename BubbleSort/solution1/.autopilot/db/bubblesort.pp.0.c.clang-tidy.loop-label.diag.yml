@@ -1,0 +1,31 @@
+---
+MainSourceFile:  'E:/USN_Education/VitisCode/BubbleSort/BubbleSort/solution1/.autopilot/db/bubblesort.pp.0.c'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        bubblesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c'
+        Offset:          46585
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_2:  '
+    FileOffset:      16
+    FilePath:        bubblesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c'
+        Offset:          46623
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        bubblesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c'
+        Offset:          47214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+...

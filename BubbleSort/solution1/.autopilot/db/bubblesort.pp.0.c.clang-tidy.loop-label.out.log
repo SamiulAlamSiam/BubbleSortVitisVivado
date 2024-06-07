@@ -1,0 +1,15 @@
+E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c:878:5: warning: Added loop label VITIS_LOOP_13_1:   [xilinx-label-all-loops]
+    for (i = 0; i < n - 1; i++)
+    ^~~
+    VITIS_LOOP_13_1: 
+E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c:878:5: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c:881:9: warning: Added loop label VITIS_LOOP_16_2:   [xilinx-label-all-loops]
+        for (j = 0; j < n - i - 1; j++)
+        ^~~
+        VITIS_LOOP_16_2: 
+E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c:881:9: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c:900:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for(int i=0; i<array_size; i++){
+ ^~~
+ VITIS_LOOP_31_1: 
+E:\USN_Education\VitisCode\BubbleSort\BubbleSort\solution1\.autopilot\db\bubblesort.pp.0.c:900:2: note: FIX-IT applied suggested code changes

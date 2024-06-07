@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="bubblesort.c" line="24" pragmaType="interface" parentfunction="group3" mode="s_axilite" port="" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="bubblesort.c" line="25" pragmaType="interface" parentfunction="group3" mode="s_axilite" port="array" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="bubblesort.c" line="26" pragmaType="interface" parentfunction="group3" mode="s_axilite" port="array_size" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="bubblesort.c" line="27" pragmaType="interface" parentfunction="group3" mode="s_axilite" port="output" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

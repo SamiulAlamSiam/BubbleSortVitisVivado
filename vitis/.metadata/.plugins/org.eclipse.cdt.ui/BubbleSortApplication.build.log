@@ -1,0 +1,25 @@
+21:32:01 **** Incremental Build of configuration Debug for project BubbleSortApplication ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/bubblesort_vitis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bubblesort_vitis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSort_Platform/export/BubbleSort_Platform/sw/BubbleSort_Platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/bubblesort_vitis.d" -MT"src/bubblesort_vitis.o" -o "src/bubblesort_vitis.o" "../src/bubblesort_vitis.c"
+'Finished building: ../src/bubblesort_vitis.c'
+' '
+'Building target: BubbleSortApplication.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/USN_Education/VitisCode/BubbleSort/vitis/BubbleSort_Platform/export/BubbleSort_Platform/sw/BubbleSort_Platform/standalone_domain/bsplib/lib -o "BubbleSortApplication.elf"  ./src/bubblesort_vitis.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BubbleSortApplication.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BubbleSortApplication.elf  |tee "BubbleSortApplication.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22376	   1160	  22584	  46120	   b428	BubbleSortApplication.elf
+'Finished building: BubbleSortApplication.elf.size'
+' '
+
+21:32:01 Build Finished (took 624ms)
+

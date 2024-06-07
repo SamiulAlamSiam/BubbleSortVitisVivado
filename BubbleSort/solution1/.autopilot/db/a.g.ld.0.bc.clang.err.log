@@ -1,0 +1,2 @@
+remark: bubblesort.c:11:0: Inlining function 'swap' into 'bubbleSort'
+remark: bubblesort.c:23:0: Inlining function 'bubbleSort' into 'group3'
